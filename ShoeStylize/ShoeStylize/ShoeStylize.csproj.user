@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AdminManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageBlog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageBrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageShoe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ProviderManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
