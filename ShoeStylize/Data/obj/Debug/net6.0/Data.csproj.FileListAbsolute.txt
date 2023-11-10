@@ -40,3 +40,17 @@ D:\ShoeStylize\Data\obj\Debug\net6.0\refint\Data.dll
 D:\ShoeStylize\Data\obj\Debug\net6.0\Data.pdb
 D:\ShoeStylize\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
 D:\ShoeStylize\Data\obj\Debug\net6.0\ref\Data.dll
+D:\Cben\Shoe\ShoeStylize\Data\bin\Debug\net6.0\Data.deps.json
+D:\Cben\Shoe\ShoeStylize\Data\bin\Debug\net6.0\Data.runtimeconfig.json
+D:\Cben\Shoe\ShoeStylize\Data\bin\Debug\net6.0\Data.dll
+D:\Cben\Shoe\ShoeStylize\Data\bin\Debug\net6.0\Data.pdb
+D:\Cben\Shoe\ShoeStylize\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
+D:\Cben\Shoe\ShoeStylize\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cben\Shoe\ShoeStylize\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+D:\Cben\Shoe\ShoeStylize\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+D:\Cben\Shoe\ShoeStylize\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+D:\Cben\Shoe\ShoeStylize\Data\obj\Debug\net6.0\Data.dll
+D:\Cben\Shoe\ShoeStylize\Data\obj\Debug\net6.0\refint\Data.dll
+D:\Cben\Shoe\ShoeStylize\Data\obj\Debug\net6.0\Data.pdb
+D:\Cben\Shoe\ShoeStylize\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
+D:\Cben\Shoe\ShoeStylize\Data\obj\Debug\net6.0\ref\Data.dll

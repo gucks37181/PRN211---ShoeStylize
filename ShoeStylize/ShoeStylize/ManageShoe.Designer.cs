@@ -33,7 +33,6 @@
             btCreate = new Button();
             btDelete = new Button();
             txtBrandID = new TextBox();
-            txtDescrip = new TextBox();
             txtImage = new TextBox();
             txtSize = new TextBox();
             txtShoeName = new TextBox();
@@ -53,28 +52,27 @@
             label9 = new Label();
             label10 = new Label();
             buttonCancel = new Button();
+            txtDescrip = new RichTextBox();
             ((System.ComponentModel.ISupportInitialize)dgvShoe).BeginInit();
             SuspendLayout();
             // 
             // dgvShoe
             // 
             dgvShoe.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvShoe.Location = new Point(301, 11);
-            dgvShoe.Margin = new Padding(3, 2, 3, 2);
+            dgvShoe.Location = new Point(110, 237);
             dgvShoe.Name = "dgvShoe";
             dgvShoe.RowHeadersWidth = 51;
             dgvShoe.RowTemplate.Height = 29;
-            dgvShoe.Size = new Size(608, 540);
+            dgvShoe.Size = new Size(1131, 500);
             dgvShoe.TabIndex = 0;
             dgvShoe.CellContentClick += dgvshoe_doubleclick;
             // 
             // btUpdate
             // 
             btUpdate.Enabled = false;
-            btUpdate.Location = new Point(96, 375);
-            btUpdate.Margin = new Padding(3, 2, 3, 2);
+            btUpdate.Location = new Point(1, 370);
             btUpdate.Name = "btUpdate";
-            btUpdate.Size = new Size(82, 22);
+            btUpdate.Size = new Size(94, 29);
             btUpdate.TabIndex = 1;
             btUpdate.Text = "Update";
             btUpdate.UseVisualStyleBackColor = true;
@@ -82,10 +80,9 @@
             // 
             // btCreate
             // 
-            btCreate.Location = new Point(195, 375);
-            btCreate.Margin = new Padding(3, 2, 3, 2);
+            btCreate.Location = new Point(0, 309);
             btCreate.Name = "btCreate";
-            btCreate.Size = new Size(82, 22);
+            btCreate.Size = new Size(94, 29);
             btCreate.TabIndex = 2;
             btCreate.Text = "Create";
             btCreate.UseVisualStyleBackColor = true;
@@ -94,10 +91,9 @@
             // btDelete
             // 
             btDelete.Enabled = false;
-            btDelete.Location = new Point(96, 412);
-            btDelete.Margin = new Padding(3, 2, 3, 2);
+            btDelete.Location = new Point(0, 422);
             btDelete.Name = "btDelete";
-            btDelete.Size = new Size(82, 22);
+            btDelete.Size = new Size(94, 29);
             btDelete.TabIndex = 3;
             btDelete.Text = "Delete";
             btDelete.UseVisualStyleBackColor = true;
@@ -105,91 +101,74 @@
             // 
             // txtBrandID
             // 
-            txtBrandID.Location = new Point(96, 140);
-            txtBrandID.Margin = new Padding(3, 2, 3, 2);
+            txtBrandID.Location = new Point(110, 45);
             txtBrandID.Name = "txtBrandID";
-            txtBrandID.Size = new Size(182, 23);
+            txtBrandID.Size = new Size(207, 27);
             txtBrandID.TabIndex = 4;
-            // 
-            // txtDescrip
-            // 
-            txtDescrip.Location = new Point(96, 189);
-            txtDescrip.Margin = new Padding(3, 2, 3, 2);
-            txtDescrip.Name = "txtDescrip";
-            txtDescrip.Size = new Size(182, 23);
-            txtDescrip.TabIndex = 5;
             // 
             // txtImage
             // 
-            txtImage.Location = new Point(96, 267);
-            txtImage.Margin = new Padding(3, 2, 3, 2);
+            txtImage.Location = new Point(728, 45);
             txtImage.Name = "txtImage";
-            txtImage.Size = new Size(182, 23);
+            txtImage.Size = new Size(207, 27);
             txtImage.TabIndex = 6;
             // 
             // txtSize
             // 
-            txtSize.Location = new Point(96, 216);
-            txtSize.Margin = new Padding(3, 2, 3, 2);
+            txtSize.Location = new Point(429, 45);
             txtSize.Name = "txtSize";
-            txtSize.Size = new Size(182, 23);
+            txtSize.Size = new Size(207, 27);
             txtSize.TabIndex = 7;
             // 
             // txtShoeName
             // 
-            txtShoeName.Location = new Point(96, 165);
-            txtShoeName.Margin = new Padding(3, 2, 3, 2);
+            txtShoeName.Location = new Point(429, 12);
             txtShoeName.Name = "txtShoeName";
-            txtShoeName.Size = new Size(182, 23);
+            txtShoeName.Size = new Size(207, 27);
             txtShoeName.TabIndex = 8;
             // 
             // txtShoeID
             // 
-            txtShoeID.Location = new Point(96, 115);
-            txtShoeID.Margin = new Padding(3, 2, 3, 2);
+            txtShoeID.Location = new Point(110, 11);
             txtShoeID.Name = "txtShoeID";
             txtShoeID.ReadOnly = true;
-            txtShoeID.Size = new Size(182, 23);
+            txtShoeID.Size = new Size(207, 27);
             txtShoeID.TabIndex = 9;
             // 
             // txtPrice
             // 
-            txtPrice.Location = new Point(96, 317);
-            txtPrice.Margin = new Padding(3, 2, 3, 2);
+            txtPrice.Location = new Point(1034, 45);
             txtPrice.Name = "txtPrice";
-            txtPrice.Size = new Size(182, 23);
+            txtPrice.Size = new Size(207, 27);
             txtPrice.TabIndex = 10;
             // 
             // txtColor
             // 
-            txtColor.Location = new Point(96, 243);
-            txtColor.Margin = new Padding(3, 2, 3, 2);
+            txtColor.Location = new Point(728, 13);
             txtColor.Name = "txtColor";
-            txtColor.Size = new Size(182, 23);
+            txtColor.Size = new Size(207, 27);
             txtColor.TabIndex = 11;
             // 
             // txtSIzeID
             // 
-            txtSIzeID.Location = new Point(96, 341);
-            txtSIzeID.Margin = new Padding(3, 2, 3, 2);
+            txtSIzeID.Location = new Point(110, 78);
             txtSIzeID.Name = "txtSIzeID";
-            txtSIzeID.Size = new Size(182, 23);
+            txtSIzeID.Size = new Size(207, 27);
             txtSIzeID.TabIndex = 12;
             // 
             // txtQuanity
             // 
-            txtQuanity.Location = new Point(96, 292);
-            txtQuanity.Margin = new Padding(3, 2, 3, 2);
+            txtQuanity.Location = new Point(1034, 11);
             txtQuanity.Name = "txtQuanity";
-            txtQuanity.Size = new Size(182, 23);
+            txtQuanity.Size = new Size(207, 27);
             txtQuanity.TabIndex = 13;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(27, 115);
+            label1.Location = new Point(31, 11);
             label1.Name = "label1";
-            label1.Size = new Size(50, 15);
+            label1.Size = new Size(64, 20);
             label1.TabIndex = 14;
             label1.Text = "Shoe ID:";
             label1.Click += label1_Click;
@@ -197,63 +176,63 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(22, 140);
+            label2.Location = new Point(25, 45);
             label2.Name = "label2";
-            label2.Size = new Size(55, 15);
+            label2.Size = new Size(70, 20);
             label2.TabIndex = 15;
             label2.Text = "Brand ID:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(14, 165);
+            label3.Location = new Point(335, 12);
             label3.Name = "label3";
-            label3.Size = new Size(69, 15);
+            label3.Size = new Size(86, 20);
             label3.TabIndex = 16;
             label3.Text = "Shoe name:";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(14, 189);
+            label4.Location = new Point(17, 129);
             label4.Name = "label4";
-            label4.Size = new Size(70, 15);
+            label4.Size = new Size(88, 20);
             label4.TabIndex = 17;
             label4.Text = "Description:";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(49, 216);
+            label5.Location = new Point(375, 45);
             label5.Name = "label5";
-            label5.Size = new Size(30, 15);
+            label5.Size = new Size(39, 20);
             label5.TabIndex = 18;
             label5.Text = "Size:";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(43, 243);
+            label6.Location = new Point(667, 13);
             label6.Name = "label6";
-            label6.Size = new Size(39, 15);
+            label6.Size = new Size(48, 20);
             label6.TabIndex = 19;
             label6.Text = "Color:";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(36, 267);
+            label7.Location = new Point(659, 45);
             label7.Name = "label7";
-            label7.Size = new Size(43, 15);
+            label7.Size = new Size(54, 20);
             label7.TabIndex = 20;
             label7.Text = "Image:";
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(28, 292);
+            label8.Location = new Point(956, 11);
             label8.Name = "label8";
-            label8.Size = new Size(52, 15);
+            label8.Size = new Size(63, 20);
             label8.TabIndex = 21;
             label8.Text = "Quanity:";
             label8.Click += label8_Click;
@@ -261,37 +240,48 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(44, 317);
+            label9.Location = new Point(974, 45);
             label9.Name = "label9";
-            label9.Size = new Size(36, 15);
+            label9.Size = new Size(44, 20);
             label9.TabIndex = 22;
             label9.Text = "Price:";
             // 
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(38, 341);
+            label10.Location = new Point(37, 78);
             label10.Name = "label10";
-            label10.Size = new Size(44, 15);
+            label10.Size = new Size(58, 20);
             label10.TabIndex = 23;
             label10.Text = "Size ID:";
+            label10.Click += label10_Click;
             // 
             // buttonCancel
             // 
             buttonCancel.Enabled = false;
-            buttonCancel.Location = new Point(195, 411);
+            buttonCancel.Location = new Point(0, 471);
+            buttonCancel.Margin = new Padding(3, 4, 3, 4);
             buttonCancel.Name = "buttonCancel";
-            buttonCancel.Size = new Size(83, 23);
+            buttonCancel.Size = new Size(95, 31);
             buttonCancel.TabIndex = 24;
             buttonCancel.Text = "Cancel";
             buttonCancel.UseVisualStyleBackColor = true;
             buttonCancel.Click += buttonCancel_Click;
             // 
+            // txtDescrip
+            // 
+            txtDescrip.Location = new Point(110, 111);
+            txtDescrip.Name = "txtDescrip";
+            txtDescrip.Size = new Size(1131, 120);
+            txtDescrip.TabIndex = 25;
+            txtDescrip.Text = "";
+            // 
             // ManageShoe
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(921, 562);
+            ClientSize = new Size(1268, 749);
+            Controls.Add(txtDescrip);
             Controls.Add(buttonCancel);
             Controls.Add(label10);
             Controls.Add(label9);
@@ -311,12 +301,12 @@
             Controls.Add(txtShoeName);
             Controls.Add(txtSize);
             Controls.Add(txtImage);
-            Controls.Add(txtDescrip);
             Controls.Add(txtBrandID);
             Controls.Add(btDelete);
             Controls.Add(btCreate);
             Controls.Add(btUpdate);
             Controls.Add(dgvShoe);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "ManageShoe";
             Text = "Manage Shoe";
             Load += ManageShoe_Load;
@@ -332,7 +322,6 @@
         private Button btCreate;
         private Button btDelete;
         private TextBox txtBrandID;
-        private TextBox txtDescrip;
         private TextBox txtImage;
         private TextBox txtSize;
         private TextBox txtShoeName;
@@ -352,5 +341,6 @@
         private Label label9;
         private Label label10;
         private Button buttonCancel;
+        private RichTextBox txtDescrip;
     }
 }

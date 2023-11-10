@@ -170,7 +170,7 @@ namespace ShoeStylize
             var image = txtImage.Text;
             var quanity = int.Parse(txtQuanity.Text);
             var price = decimal.Parse(txtPrice.Text);
-            var sizeID = int.Parse(txtSIzeID.Text);
+            var sizeID = GetSizeIdBySize(txtSize.Text);
 
             var shoe = new Shoe()
             {
@@ -199,6 +199,21 @@ namespace ShoeStylize
             btDelete.Enabled = false;
             buttonCancel.Enabled = false;
             clearTextBox();
+        }
+        // Add this method to your ManageShoe form
+        private int? GetSizeIdBySize(string size)
+        {
+            var shoe = shoeRepository.GetAll().FirstOrDefault(p => p.Size.Equals(size, StringComparison.OrdinalIgnoreCase));
+            if (shoe != null)
+            {
+                return shoe.SizeId;
+            }
+            return null; // Size not found
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

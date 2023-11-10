@@ -2987,24 +2987,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
-    "C:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ShoeStylize\\ShoeStylize\\ShoeStylize.csproj",
+      "projectUniqueName": "D:\\Cben\\Shoe\\ShoeStylize\\ShoeStylize\\ShoeStylize.csproj",
       "projectName": "ShoeStylize",
-      "projectPath": "D:\\ShoeStylize\\ShoeStylize\\ShoeStylize.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\ShoeStylize\\ShoeStylize\\obj\\",
+      "projectPath": "D:\\Cben\\Shoe\\ShoeStylize\\ShoeStylize\\ShoeStylize.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "D:\\Cben\\Shoe\\ShoeStylize\\ShoeStylize\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3018,8 +3013,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\ShoeStylize\\Data\\Data.csproj": {
-              "projectPath": "D:\\ShoeStylize\\Data\\Data.csproj"
+            "D:\\Cben\\Shoe\\ShoeStylize\\Data\\Data.csproj": {
+              "projectPath": "D:\\Cben\\Shoe\\ShoeStylize\\Data\\Data.csproj"
             }
           }
         }
@@ -3052,7 +3047,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
