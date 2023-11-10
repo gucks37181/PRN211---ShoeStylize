@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "15xXGXN+ZVZiHNv0FC8PyLW90vqAMwKv2l5K9+l8VKoofEOq03KopPCjB7LyKzOledQLDb2+sSlPOJYehhfQCQ==",
+  "dgSpecHash": "lNxx2ZArxDzUMvwh8LGSqj5w0slMn3jIIYTaKW0wSzdm+2sGy9jKULWrIbUEb49CaHhKTcKm/NudtTTFlxxtuA==",
   "success": true,
-  "projectFilePath": "D:\\ShoeStylize\\Data\\Data.csproj",
+  "projectFilePath": "D:\\GitHub\\PRN211---ShoeStylize\\ShoeStylize\\Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

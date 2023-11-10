@@ -2993,11 +2993,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ShoeStylize\\ShoeStylize\\ShoeStylize.csproj",
+      "projectUniqueName": "D:\\GitHub\\PRN211---ShoeStylize\\ShoeStylize\\ShoeStylize\\ShoeStylize.csproj",
       "projectName": "ShoeStylize",
-      "projectPath": "D:\\ShoeStylize\\ShoeStylize\\ShoeStylize.csproj",
+      "projectPath": "D:\\GitHub\\PRN211---ShoeStylize\\ShoeStylize\\ShoeStylize\\ShoeStylize.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\ShoeStylize\\ShoeStylize\\obj\\",
+      "outputPath": "D:\\GitHub\\PRN211---ShoeStylize\\ShoeStylize\\ShoeStylize\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3018,8 +3018,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\ShoeStylize\\Data\\Data.csproj": {
-              "projectPath": "D:\\ShoeStylize\\Data\\Data.csproj"
+            "D:\\GitHub\\PRN211---ShoeStylize\\ShoeStylize\\Data\\Data.csproj": {
+              "projectPath": "D:\\GitHub\\PRN211---ShoeStylize\\ShoeStylize\\Data\\Data.csproj"
             }
           }
         }

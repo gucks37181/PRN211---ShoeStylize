@@ -3187,11 +3187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ShoeStylize\\Data\\Data.csproj",
+      "projectUniqueName": "D:\\GitHub\\PRN211---ShoeStylize\\ShoeStylize\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "D:\\ShoeStylize\\Data\\Data.csproj",
+      "projectPath": "D:\\GitHub\\PRN211---ShoeStylize\\ShoeStylize\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\ShoeStylize\\Data\\obj\\",
+      "outputPath": "D:\\GitHub\\PRN211---ShoeStylize\\ShoeStylize\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
