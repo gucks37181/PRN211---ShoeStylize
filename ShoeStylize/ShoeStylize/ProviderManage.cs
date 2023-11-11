@@ -32,6 +32,7 @@ namespace ShoeStylize
         private void button4_Click(object sender, EventArgs e)
         {
             ManageSize manageSize = new ManageSize();
+            manageSize.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
