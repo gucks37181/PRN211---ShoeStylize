@@ -13,7 +13,11 @@ namespace Data
         ShoesStylizeContext _context;
         DbSet<T> _dbSet;
 
-        
+        public RepositoryBase()
+        {
+            _context = new ShoesStylizeContext();
+            _dbSet = _context.Set<T>();
+        }
 
         public void Add(T entity)
         {
