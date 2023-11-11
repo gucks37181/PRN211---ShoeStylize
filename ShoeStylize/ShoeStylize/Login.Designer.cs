@@ -36,7 +36,7 @@
             label3 = new Label();
             SuspendLayout();
             // 
-            // label1
+            // label01
             // 
             label1.AutoSize = true;
             label1.Location = new Point(122, 116);
